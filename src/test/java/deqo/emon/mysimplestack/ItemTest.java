@@ -18,5 +18,10 @@ public class ItemTest {
 
     @Test
     public void setValeur() {
+        Item item = new Item(0);
+        //code à test
+        item.setValeur(45);
+        //assertions (oracle)
+        assertEquals(12, item.getValeur());
     }
 }
