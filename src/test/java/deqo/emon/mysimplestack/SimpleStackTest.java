@@ -16,7 +16,7 @@ public class SimpleStackTest {
     public void init(){
         stack = new SimpleStack();
         stack2 = new SimpleStack();
-        i = new Item(13);
+        i = new Item(13,"i");
         stack2.push(i);
     }
     @Test

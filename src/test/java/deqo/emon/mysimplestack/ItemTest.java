@@ -11,8 +11,8 @@ public class ItemTest {
     private  Item i2;
     @Before //fixture
     public void init(){
-        i1 = new Item(12);
-        i2 = new Item(0);
+        i1 = new Item(12,"item1");
+        i2 = new Item(0,"item2");
     }
 
     @Test
@@ -31,5 +31,19 @@ public class ItemTest {
         //assertions (oracle)
         assertEquals(45, i2.getValeur());
         assertFalse(i2.getValeur() < 0);
+    }
+    public void testGetName(){
+        //code à test
+        String nom = i1.getName();
+        //assertions
+        assertTrue("item".equals(nom));
+    }
+
+    public void testSetName(){
+        //code à test
+        String nom = i2.getName();
+        i2.setName("test");
+        //assertion
+        assertFalse(nom.equals(i2.getName()));
     }
 }
