@@ -3,13 +3,6 @@ package deqo.emon.mysimplestack;
 public class Item {
     private int valeur;
 
-    @Override
-    public String toString() {
-        return "Item{" +
-                "valeur=" + valeur +
-                '}';
-    }
-
     public Item(int valeur) {
         this.valeur = valeur;
     }

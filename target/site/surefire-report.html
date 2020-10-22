@@ -44,6 +44,7 @@ my-simple-stack
        <li class="none"><a href="xref-test/index.html" title="Test Source Xref">Test Source Xref</a></li>
        <li class="none"><a href="checkstyle.html" title="Checkstyle">Checkstyle</a></li>
        <li class="none"><a href="findbugs.html" title="FindBugs">FindBugs</a></li>
+       <li class="none"><a href="pmd.html" title="PMD">PMD</a></li>
        <li class="none"><strong>Surefire Report</strong></li>
       </ul></li>
     </ul>
@@ -85,12 +86,12 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th></tr>
 <tr class="b">
-<td>1</td>
+<td>8</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0.158</td></tr></table><br />
+<td>0.162</td></tr></table><br />
 <p>Note: failures are anticipated and checked for with assertions while errors are unanticipated.</p><br /></div>
 <div class="section">
 <h2><a name="Package_List"></a>Package List</h2><a name="Package_List"></a>
@@ -106,12 +107,12 @@ function toggleDisplay(elementId) {
 <th>Time</th></tr>
 <tr class="b">
 <td><a href="#deqo.emon.mysimplestack">deqo.emon.mysimplestack</a></td>
-<td>1</td>
+<td>8</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0.158</td></tr></table><br />
+<td>0.162</td></tr></table><br />
 <p>Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.</p>
 <div class="section">
 <h3><a name="deqo.emon.mysimplestack"></a>deqo.emon.mysimplestack</h3><a name="deqo.emon.mysimplestack"></a>
@@ -126,6 +127,24 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th></tr>
 <tr class="b">
+<td><a href="#deqo.emon.mysimplestackSimpleStackTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#deqo.emon.mysimplestackSimpleStackTest">SimpleStackTest</a></td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.004</td></tr>
+<tr class="a">
+<td><a href="#deqo.emon.mysimplestackItemTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#deqo.emon.mysimplestackItemTest">ItemTest</a></td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.157</td></tr>
+<tr class="b">
 <td><a href="#deqo.emon.mysimplestackAppTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
 <td><a href="#deqo.emon.mysimplestackAppTest">AppTest</a></td>
 <td>1</td>
@@ -133,17 +152,51 @@ function toggleDisplay(elementId) {
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0.158</td></tr></table></div><br /></div>
+<td>0.001</td></tr></table></div><br /></div>
 <div class="section">
 <h2><a name="Test_Cases"></a>Test Cases</h2><a name="Test_Cases"></a>
 <p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p>
+<div class="section">
+<h3><a name="SimpleStackTest"></a>SimpleStackTest</h3><a name="deqo.emon.mysimplestackSimpleStackTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_deqo.emon.mysimplestack.SimpleStackTest.testPop"></a>testPop</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_deqo.emon.mysimplestack.SimpleStackTest.tesstPeek"></a>tesstPeek</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_deqo.emon.mysimplestack.SimpleStackTest.testPush"></a>testPush</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_deqo.emon.mysimplestack.SimpleStackTest.testGetSize"></a>testGetSize</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_deqo.emon.mysimplestack.SimpleStackTest.testIsEmpty"></a>testIsEmpty</td>
+<td>0</td></tr></table></div>
+<div class="section">
+<h3><a name="ItemTest"></a>ItemTest</h3><a name="deqo.emon.mysimplestackItemTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_deqo.emon.mysimplestack.ItemTest.testSetValeur"></a>testSetValeur</td>
+<td>0.008</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_deqo.emon.mysimplestack.ItemTest.testGetValeur"></a>testGetValeur</td>
+<td>0</td></tr></table></div>
 <div class="section">
 <h3><a name="AppTest"></a>AppTest</h3><a name="deqo.emon.mysimplestackAppTest"></a>
 <table border="1" class="bodyTable">
 <tr class="a">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_deqo.emon.mysimplestack.AppTest.shouldAnswerWithTrue"></a>shouldAnswerWithTrue</td>
-<td>0.008</td></tr></table></div><br /></div>
+<td>0</td></tr></table></div><br /></div>
       </div>
     </div>
     <div class="clear">

@@ -1,1 +1,4 @@
 deqo/emon/mysimplestack/App.class
+deqo/emon/mysimplestack/SimpleStack.class
+deqo/emon/mysimplestack/ISimpleStack.class
+deqo/emon/mysimplestack/Item.class
