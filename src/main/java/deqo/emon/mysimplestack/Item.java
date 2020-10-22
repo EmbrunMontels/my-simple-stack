@@ -4,7 +4,13 @@ public class Item {
     private int valeur;
 
     public Item(int valeur) {
-        this.valeur = valeur;
+        if (valeur >=0){
+            this.valeur = valeur;
+        }
+        else{
+            System.out.println("valeur négative interdite, initialisation par défaut à 0");
+            this.valeur = 0;
+        }
     }
 
     public int getValeur() {

@@ -20,7 +20,8 @@ public class ItemTest {
         //code à test
         int val = i1.getValeur();
         //assertions (oracle)
-        Assert.assertTrue((val == 12));
+        assertTrue((val == 12));
+        assertFalse(val < 0);
     }
 
     @Test
@@ -28,6 +29,7 @@ public class ItemTest {
         //code à test
         i2.setValeur(45);
         //assertions (oracle)
-        Assert.assertEquals(45, i2.getValeur());
+        assertEquals(45, i2.getValeur());
+        assertFalse(i2.getValeur() < 0);
     }
 }
